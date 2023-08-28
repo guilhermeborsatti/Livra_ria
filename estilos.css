@@ -7,12 +7,14 @@
 }
 
 body {
-    font-family: font-family: 'Roboto Slab', serif;
-    background-color: #f0f0f0; /* Define a cor de fundo */
+    font-family: font-family: 'Roboto Slab';
+    background-color: black;
+    color: white
+
 }
 
 header {
-    background-color: #333; /* Define a cor de fundo */
+    background-color:#363636; /* Define a cor de fundo */
     color: #fff; /* Define a cor do texto */
     text-align: center; /* Centraliza o texto */
     padding: 1rem; /* Define um espaçamento interno */
@@ -29,7 +31,7 @@ nav li {
 
 nav a {
     text-decoration: none; /* Remove o sublinhado dos links */
-    color: #fff; /* Define a cor do texto */
+    color: #000000; /* Define a cor do texto */
     font-weight: bold; /* Define o peso da fonte */
 }
 
@@ -42,7 +44,7 @@ main {
     width: calc(33.33% - 20px); /* 33.33% - 40px */
     margin: 10px; /* Define um espaçamento externo */
     padding: 20px; /* Define um espaçamento interno */
-    background-color: #fff; /* Define a cor de fundo */
+    background-color: #363636; /* Define a cor de fundo */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
     text-align: center; /* Centraliza o texto */
     float: left; /* Faz com que os elementos fiquem na mesma linha */
@@ -54,7 +56,7 @@ main {
 }
 
 .card button {
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
     border: none;
     padding: 8px 16px;
@@ -64,7 +66,8 @@ main {
 }
 
 .card button:hover {
-    background-color: #555; /* Muda a cor de fundo ao passar o mouse */
+    background-color:  #00a8ff; /* Muda a cor de fundo ao passar o mouse */
+    color: rgb(0, 0, 0);
 }
 
 footer {
@@ -84,5 +87,7 @@ footer {
   #meuLink:hover {
     background-color: rgb(0, 0, 0);
   }
+
   
+
   
