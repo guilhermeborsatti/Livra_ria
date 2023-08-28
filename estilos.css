@@ -1,6 +1,5 @@
-/* estilos.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
-/* Reset de Estilos */
 * {
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
@@ -8,7 +7,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    font-family: font-family: 'Roboto Slab', serif;
     background-color: #f0f0f0; /* Define a cor de fundo */
 }
 
@@ -74,3 +73,16 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
+#meuLink {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #meuLink:hover {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  
